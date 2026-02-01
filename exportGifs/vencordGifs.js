@@ -1,0 +1,1 @@
+﻿copy(JSON.stringify(Object.entries(Vencord.Webpack.findStore("UserSettingsProtoStore").frecencyWithoutFetchingLatest.favoriteGifs.gifs).map(([src,{src:proxy}])=>({src,proxy}))))
